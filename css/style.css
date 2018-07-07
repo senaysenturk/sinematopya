@@ -1,5 +1,10 @@
-#movies img, #movie img{
-  width:100%;
+#movies img, #movie img, #movie {
+  width:auto;
+  height: 100%;
+}
+
+h5,h6{
+  cursor: pointer;
 }
 
 @media(min-width:960px){
@@ -10,4 +15,9 @@
   #movies .col-md-3 img{
     height:240px;
   }
+}
+
+#i{
+  width: 50px;
+  height: auto;
 }
